@@ -1,0 +1,3365 @@
+#孟莎 2022-04-28 15:07:35 组件添加 audience 0.2.1 --- [ hubble 0.2+ ]
+#孟莎 2022-04-28 15:07:35 组件添加 audience 0.2.1 --- [ sp 1.18 ]
+#孟莎 2022-04-28 15:07:35 组件添加 audience 0.2.1 --- [ sp 2.0.0 ]
+#孟莎 2022-04-28 15:08:17 组件添加 nebula 2.1.1 --- [ sp 1.18 ]
+#孟莎 2022-04-28 15:08:17 组件添加 nebula 2.1.1 --- [ sp 2.0.0 ]
+#孟莎 2022-04-28 15:12:18 依赖追加 sfn 4.2.0 --- [ audience 0.2.0+ ]
+#孟莎 2022-04-28 15:13:10 组件添加 sfn 4.2.1 --- [ audience 0.2.0 ]
+#孟莎 2022-04-28 15:13:10 组件添加 sfn 4.2.1 --- [ audience 0.2.0+ ]
+#孟莎 2022-04-28 15:13:10 组件添加 sfn 4.2.1 --- [ express 0.3.0 ]
+#孟莎 2022-04-28 15:13:10 组件添加 sfn 4.2.1 --- [ nebula 2.0.0+ ]
+#孟莎 2022-04-28 15:13:10 组件添加 sfn 4.2.1 --- [ nebula 2.1.0 ]
+#孟莎 2022-04-28 15:13:10 组件添加 sfn 4.2.1 --- [ sp 1.18 ]
+#孟莎 2022-04-28 15:13:10 组件添加 sfn 4.2.1 --- [ sp 2.0.0 ]
+#审批生成时间 2022-04-28 15:15:00 
+product_dependency:
+    abtest:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    abtest-lab:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    abtest-management:
+        "0.1":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.5+":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.5+":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.5+":
+                        dependency_type: 'strong'
+        "0.4":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.6+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.5+":
+                        dependency_type: 'strong'
+        "0.5.0":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.6+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.5+":
+                        dependency_type: 'strong'
+        "0.5.1":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.6+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.5+":
+                        dependency_type: 'strong'
+        "0.5.2":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.6+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.5+":
+                        dependency_type: 'strong'
+        "0.6.0":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "1.1.0":
+                        dependency_type: 'strong'
+                    "1.1.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.6.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.6+":
+                        dependency_type: 'strong'
+    ads-cable:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    ads-marketing:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    ads-receiver:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.3.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.3.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    ads-slink:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    ads-subscriptor:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    advertising:
+        "1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "1.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+    advertising-management:
+        "0.1":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "1.1.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.6.0+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sdg:
+                    "0.9.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.4.0":
+            upgrade_type: "medium"
+            dependencies:
+                infinity:
+                    "0.3.4+":
+                        dependency_type: 'strong'
+                sa:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "1.2.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.6.0+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sdg:
+                    "0.9.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    armada:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+    audience:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.1.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                hubble:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.1":
+            upgrade_type: "medium"
+            dependencies:
+                hubble:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    blitzreport:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.1.1":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.1.2":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.1.3":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.1.4":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.1.5":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.1":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.4.0":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.4.1":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.5.0":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.5.1":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.5.2":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.5.3":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6.0":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "2.3.2+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    canary:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+    captain:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+    cyber:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    diviner:
+        "0.1":
+            upgrade_type: "medium"
+            dependencies:
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    edge:
+        "0.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    express:
+        "0.0.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    focus-console:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    focus-console-cloud:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.1.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    focus-console-edge:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.1.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    hubble:
+        "0.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    infinity:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.1":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.2":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.3":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.4":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    infinity-bridge:
+        "0.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    infinity-workload:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    itemtrigger:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    kafka:
+        "2.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.8.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    kraken:
+        "3.7.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    logsyncer:
+        "0.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    lumen:
+        "3.2.16":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "3.2.17":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "3.2.18":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    mercury:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                hubble:
+                    "0.3.0":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    nebula:
+        "1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.1.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    neo:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    paguridae:
+        "2.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    polaris:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.4.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    qatest:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+        "0.3":
+            upgrade_type: "major"
+            dependencies:
+        "0.4":
+            upgrade_type: "medium"
+            dependencies:
+        "0.5":
+            upgrade_type: "medium"
+            dependencies:
+        "0.6":
+            upgrade_type: "medium"
+            dependencies:
+        "0.7":
+            upgrade_type: "major"
+            dependencies:
+        "0.8":
+            upgrade_type: "major"
+            dependencies:
+        "0.9":
+            upgrade_type: "major"
+            dependencies:
+        "1.0":
+            upgrade_type: "medium"
+            dependencies:
+        "2.0":
+            upgrade_type: "medium"
+            dependencies:
+        "2.1.0":
+            upgrade_type: "medium"
+            dependencies:
+        "2.1.1":
+            upgrade_type: "medium"
+            dependencies:
+        "2.1.2":
+            upgrade_type: "medium"
+            dependencies:
+        "2.1.3":
+            upgrade_type: "medium"
+            dependencies:
+        "2.1.4":
+            upgrade_type: "medium"
+            dependencies:
+        "2.2.0":
+            upgrade_type: "medium"
+            dependencies:
+        "2.3.0":
+            upgrade_type: "medium"
+            dependencies:
+        "2.4.0":
+            upgrade_type: "medium"
+            dependencies:
+    quickpersona:
+        "0.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    receipt-gateway:
+        "1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sa:
+        "1.14":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.14":
+                        dependency_type: 'strong'
+        "1.15":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.15":
+                        dependency_type: 'strong'
+        "1.16":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.16":
+                        dependency_type: 'strong'
+        "1.17":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "2.1":
+            upgrade_type: "medium"
+            dependencies:
+                sbr:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sdg:
+                    "0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "2.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sbr:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdg:
+                    "0.7+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.6+":
+                        dependency_type: 'strong'
+                sbr:
+                    "0.3+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdg:
+                    "0.7+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.3.1":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.6+":
+                        dependency_type: 'strong'
+                sbr:
+                    "0.3+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdg:
+                    "0.7+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.3.2":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.6+":
+                        dependency_type: 'strong'
+                sbr:
+                    "0.3+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdg:
+                    "0.7+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sbp:
+        "0.5":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sbr:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.4.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.5.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sca:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.4":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.5":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    scms:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.1":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.7.0":
+                        dependency_type: 'strong'
+        "0.3.1":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.7.0":
+                        dependency_type: 'strong'
+        "0.4.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "1.1.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.7.0":
+                        dependency_type: 'strong'
+        "0.4.1":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "1.1.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.7.0":
+                        dependency_type: 'strong'
+        "0.4.2":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "1.1.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sps:
+                    "1.7.0":
+                        dependency_type: 'strong'
+    scms-hub:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.1.1":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    scrm:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    scrmgoodhope:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sdd:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0+":
+                        dependency_type: 'strong'
+    sdf:
+        "2.0":
+            upgrade_type: "major"
+            dependencies:
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "2.1":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "2.2":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.3+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.3.0":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.3.1":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.3.2":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.6.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sdg:
+        "0.3":
+            upgrade_type: "major"
+            dependencies:
+                sca:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "0.4":
+            upgrade_type: "major"
+            dependencies:
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.5":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.6":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.10.0":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                infinity:
+                    "0.3.1+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.10.1":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                infinity:
+                    "0.3.1+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.10.2":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                infinity:
+                    "0.3.1+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.10.3":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                infinity:
+                    "0.3.1+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.10.4":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                infinity:
+                    "0.3.1+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.10.5":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                infinity:
+                    "0.3.1+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.10.6":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.2+":
+                        dependency_type: 'strong'
+                infinity:
+                    "0.3.1+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.11.0":
+            upgrade_type: "medium"
+            dependencies:
+                edge:
+                    "0.3.0+":
+                        dependency_type: 'strong'
+                infinity:
+                    "0.3.4+":
+                        dependency_type: 'strong'
+                sbp:
+                    "1.1.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.6.2+":
+                        dependency_type: 'strong'
+                sdf:
+                    "2.3.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.7":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.8":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.9.0":
+            upgrade_type: "medium"
+            dependencies:
+                infinity:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    septest:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+    sf:
+        "0.2":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.14":
+                        dependency_type: 'strong'
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.4":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.5":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.6":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.7":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+        "1.0":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+        "1.1":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+                    "1.17":
+                        dependency_type: 'strong'
+        "1.2":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+        "1.3":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+        "1.4":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+        "1.5":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.16":
+                        dependency_type: 'strong'
+                    "1.17":
+                        dependency_type: 'strong'
+        "1.6":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "1.7":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "1.8":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "1.9":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+                    "0.3":
+                        dependency_type: 'strong'
+                    "0.4":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "2.2":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+        "2.0":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "2.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+                    "0.3":
+                        dependency_type: 'strong'
+                    "0.4":
+                        dependency_type: 'strong'
+                    "0.5":
+                        dependency_type: 'strong'
+        "2.1":
+            upgrade_type: "major"
+            dependencies:
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+                    "0.3":
+                        dependency_type: 'strong'
+                    "0.4":
+                        dependency_type: 'strong'
+                    "0.5":
+                        dependency_type: 'strong'
+        "2.3":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+    sfgoodhope:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sfn:
+        "1.0":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "1.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "3.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "3.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "3.3":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "3.4.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "3.5.0":
+            upgrade_type: "medium"
+            dependencies:
+                nebula:
+                    "1.2.0":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0+":
+                        dependency_type: 'strong'
+                nebula:
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.0.2":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0+":
+                        dependency_type: 'strong'
+                nebula:
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.0.3":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0+":
+                        dependency_type: 'strong'
+                nebula:
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.0.4":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0+":
+                        dependency_type: 'strong'
+                nebula:
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.0.5":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0+":
+                        dependency_type: 'strong'
+                nebula:
+                    "2.0.0":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0+":
+                        dependency_type: 'strong'
+                nebula:
+                    "2.0.0+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.2.0":
+                        dependency_type: 'strong'
+                    "0.2.0+":
+                        dependency_type: 'strong'
+                express:
+                    "0.3.0":
+                        dependency_type: 'strong'
+                nebula:
+                    "2.0.0+":
+                        dependency_type: 'strong'
+                    "2.1.0":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.2.1":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.2.0":
+                        dependency_type: 'strong'
+                    "0.2.0+":
+                        dependency_type: 'strong'
+                express:
+                    "0.3.0":
+                        dependency_type: 'strong'
+                nebula:
+                    "2.0.0+":
+                        dependency_type: 'strong'
+                    "2.1.0":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sfo:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "0.4":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "1.0":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.5":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "1.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "3.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "3.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "3.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "4.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sj:
+        "1.3":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "1.4":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "1.7":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "1.8":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "1.10":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "1.17+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "1.11":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "2.1":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "1.12":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "1.13.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "1.14.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.15.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.15.1":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.16.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.9":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17+":
+                        dependency_type: 'strong'
+    skv:
+        "2.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    sm:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.15":
+                        dependency_type: 'strong'
+                    "1.16":
+                        dependency_type: 'strong'
+                    "1.17":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.15":
+                        dependency_type: 'strong'
+                    "1.16":
+                        dependency_type: 'strong'
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "2.0":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    soku:
+        "1.14.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.14.2":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0+":
+                        dependency_type: 'strong'
+    sp:
+        "1.14":
+            upgrade_type: "major"
+            dependencies:
+        "1.15":
+            upgrade_type: "major"
+            dependencies:
+        "1.16":
+            upgrade_type: "major"
+            dependencies:
+        "1.17":
+            upgrade_type: "major"
+            dependencies:
+        "1.18":
+            upgrade_type: "medium"
+            dependencies:
+        "2.0.0":
+            upgrade_type: "medium"
+            dependencies:
+    spe:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+        "0.4":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "0.5":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "0.10":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.6":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "0.7":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.8":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "0.9":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+    spegoodhope:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+    sps:
+        "0.3":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.4":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.5":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+        "1.0":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+        "1.1":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+                    "1.17":
+                        dependency_type: 'strong'
+        "1.2":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+        "1.3":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+                    "2.1":
+                        dependency_type: 'strong'
+                    "2.2.0":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "1.4":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+                    "2.1":
+                        dependency_type: 'strong'
+                    "2.2.0":
+                        dependency_type: 'strong'
+                sca:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+        "1.5":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.6":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.7.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "0.6+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.5+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.8.0":
+            upgrade_type: "medium"
+            dependencies:
+                sbp:
+                    "1.2.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.6.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    spt:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+        "0.4":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.1":
+                        dependency_type: 'strong'
+                    "0.2":
+                        dependency_type: 'strong'
+        "1.0":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "2.2.0+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+    sr:
+        "1.0":
+            upgrade_type: "major"
+            dependencies:
+        "2.0":
+            upgrade_type: "major"
+            dependencies:
+        "2.1":
+            upgrade_type: "major"
+            dependencies:
+        "2.2":
+            upgrade_type: "major"
+            dependencies:
+        "2.3":
+            upgrade_type: "major"
+            dependencies:
+        "2.4":
+            upgrade_type: "major"
+            dependencies:
+        "2.5":
+            upgrade_type: "major"
+            dependencies:
+        "2.6":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "2.1":
+                        dependency_type: 'strong'
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "2.7":
+            upgrade_type: "medium"
+            dependencies:
+                sca:
+                    "0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+        "2.8":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.9.0":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "2.9.1":
+            upgrade_type: "medium"
+            dependencies:
+                sp:
+                    "2.0.0":
+                        dependency_type: 'strong'
+    srm:
+        "0.1":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.14":
+                        dependency_type: 'strong'
+        "0.2":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.3":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.4":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.15":
+                        dependency_type: 'strong'
+        "0.5":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.16":
+                        dependency_type: 'strong'
+        "0.6":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+        "0.7":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+        "0.8":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "0.9":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "1.0":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "2.0":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+        "1.1":
+            upgrade_type: "major"
+            dependencies:
+                sa:
+                    "1.17+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17+":
+                        dependency_type: 'strong'
+        "1.2":
+            upgrade_type: "medium"
+            dependencies:
+                sa:
+                    "1.17+":
+                        dependency_type: 'strong'
+                sca:
+                    "0.1+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.17":
+                        dependency_type: 'strong'
+                    "1.18":
+                        dependency_type: 'strong'
+    swg:
+        "1.0":
+            upgrade_type: "major"
+            dependencies:
+    wizard:
+        "0.1.0":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0":
+                        dependency_type: 'strong'
+                hubble:
+                    "0.2":
+                        dependency_type: 'strong'
+                sfn:
+                    "4.0.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.1.1":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0":
+                        dependency_type: 'strong'
+                hubble:
+                    "0.2":
+                        dependency_type: 'strong'
+                sfn:
+                    "4.0.2+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.0":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0":
+                        dependency_type: 'strong'
+                    "0.1.1":
+                        dependency_type: 'strong'
+                hubble:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sfn:
+                    "4.0.4":
+                        dependency_type: 'strong'
+                    "4.0.5":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "0.2.1":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.1.0":
+                        dependency_type: 'strong'
+                    "0.1.1":
+                        dependency_type: 'strong'
+                hubble:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sfn:
+                    "4.0.4":
+                        dependency_type: 'strong'
+                    "4.0.5":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.0.0":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.2.0+":
+                        dependency_type: 'strong'
+                hubble:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sfn:
+                    "4.0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.0.1":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.2.0+":
+                        dependency_type: 'strong'
+                hubble:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sfn:
+                    "4.0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
+        "1.0.2":
+            upgrade_type: "medium"
+            dependencies:
+                audience:
+                    "0.2.0+":
+                        dependency_type: 'strong'
+                hubble:
+                    "0.2+":
+                        dependency_type: 'strong'
+                sfn:
+                    "4.0.4+":
+                        dependency_type: 'strong'
+                sp:
+                    "1.18":
+                        dependency_type: 'strong'
+                    "2.0.0":
+                        dependency_type: 'strong'
